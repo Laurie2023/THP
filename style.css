@@ -1,3 +1,4 @@
+/*---------------------- MISE EN PAGE BLOCS ---------------------->*/
 body{
   display: block;
   min-width: 400px;
@@ -39,10 +40,44 @@ body{
 }
 
 .footer1 {
-  display:block;
-  justify-content:center;
-  align-items:flex-end;
+  display:flex;
+  flex-direction:column;
   position: absolute;
   bottom:0;
-  width:100%
+  width:100%;
+}
+
+.footertext{
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+}
+.ligne2{
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+}
+.ligne3{
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+}
+
+/*---------------------- MISE EN PAGE TEXTE ----------------------*/
+/*---HEARDER ---*/
+.textUp {
+  color:
+  }
+
+.boutonConn {
+color:
+}
+
+/*---MAIN ---*/
+.boutonsRecherche{
+  color: ;
+}
+/*---FOOTER ---*/
+.pays{
+  color: ;
 }
