@@ -135,6 +135,10 @@ border-radius: 4px;
   color:white
 }
 
+.boutonConn:hover{
+  background-color: #128;
+}
+
 /*---MAIN ---*/
 .bouton{
   background-color: #f8f9fa;
@@ -145,16 +149,16 @@ border-radius: 4px;
   line-height: 27px;
   height: 36px;
   min-width: 54px;
-  cursor:pointer
+}
+
+.bouton:hover{
+  border: 1px solid black;
+  cursor:pointer;
 }
 
 /*---FOOTER ---*/
 .pays{
   color: ;
-}
-.footerlink{
-  color:black;
-  padding: 15px 15px;
 }
 
 footer a {
@@ -162,3 +166,6 @@ footer a {
   color:#70757a;
 }
 
+a:hover{
+  text-decoration: underline;
+}
