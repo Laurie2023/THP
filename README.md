@@ -1,2 +1,0 @@
-# THP
- Projets - Formation THP
