@@ -1,6 +1,6 @@
 /*---------------------- MISE EN PAGE BLOCS ---------------------->*/
 body{
-  display: block;
+  display:block;
   min-width: 400px;
   height: 100%;
   margin: 0;
@@ -12,24 +12,28 @@ body{
 }
 
 .Up {
-  height: 50%;
+  height: 123px;/*prise en compte de la hauteur du logo s'il y avait été en div seul*/
   display:flex;
   justify-content:flex-end;
+  padding-left: 32px;
   align-items:flex-start;
   padding: 6px 6px 6px 6px;
   min-width: 60px;
   flex-shrink: 0;
   box-sizing: border-box;
+  align-items: center;
+  padding: 6px
 }
+
 .Top {
   display:flex;
+  float: right;
   min-height: 48px;
-  width: 219px;
+  box-sizing: border-box;
+  width: 302px;
   padding: 0 4px;
   justify-content:space-around;
-  /*vertical-align: middle;
-  white-space: nowrap;
-  -webkit-box-align: center;*/
+  align-items: center;
 }
 
 .Main {
@@ -39,45 +43,91 @@ body{
   flex-direction: column;
 }
 
-.footer1 {
-  display:flex;
-  flex-direction:column;
-  position: absolute;
-  bottom:0;
-  width:100%;
+.boutonsRecherche{
+  display: inline-block;
 }
 
-.footertext{
-  flex-direction:row;
-  justify-content:center;
-  width:100%;
+.footermain {
+  display:flex;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  margin-left: 20px;
+  padding: 0 20px;
 }
-.ligne2{
-  flex-direction:row;
-  justify-content:center;
-  width:100%;
+
+.footer1{
+  position: absolute;
+  bottom:4em;
+  width: 100%;
 }
-.ligne3{
-  flex-direction:row;
-  justify-content:center;
-  width:100%;
+
+.footer2{
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
 }
+
+.footerpart_middle{
+  width:33%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerpart_left{
+  width:33%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerpart_right{
+  width:33%;
+  display: flex;
+  justify-content: space-around;
+}
+
 
 /*---------------------- MISE EN PAGE TEXTE ----------------------*/
 /*---HEARDER ---*/
-.textUp {
-  color:
+.headerlink {
+  color:black;
+  font-size:13px;
+  font-family:  Arial,sans-serif;
   }
 
 .boutonConn {
-color:
+color:white;
+background-color: #1a73e8;
+font-family: Helvetica,Arial,sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: .25px;
+line-height: 16px;
+min-width: 96px;
+padding: 9px 23px;
+border-radius: 4px;
 }
 
 /*---MAIN ---*/
-.boutonsRecherche{
-  color: ;
+.bouton{
+  background-color: #f8f9fa;
+  border: 1px;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
 }
 /*---FOOTER ---*/
 .pays{
   color: ;
+}
+.footerlink{
+  display: block;
+  color:black;
+  padding: 15px 15px 15px 15px;
 }
