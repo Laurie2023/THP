@@ -20,19 +20,29 @@ body{
   flex-shrink: 0;
   box-sizing: border-box;
 }
+.Top {
+  display:flex;
+  min-height: 48px;
+  width: 219px;
+  padding: 0 4px;
+  justify-content:space-around;
+  /*vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-align: center;*/
+}
 
-.Middle {
+.Main {
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction: column;
 }
 
-.Pied {
-  display:flex;
+.footer1 {
+  display:block;
   justify-content:center;
   align-items:flex-end;
-}
-.Bottom piedpage {
-  color:red
+  position: absolute;
+  bottom:0;
+  width:100%
 }
