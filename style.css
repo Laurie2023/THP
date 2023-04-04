@@ -52,8 +52,7 @@ body{
   position:absolute;
   bottom:0;
   width: 100%;
-  margin-left: 20px;
-  padding: 0 20px;
+
 }
 
 .footer1{
@@ -127,7 +126,6 @@ border-radius: 4px;
   color: ;
 }
 .footerlink{
-  display: block;
   color:black;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px;
 }
